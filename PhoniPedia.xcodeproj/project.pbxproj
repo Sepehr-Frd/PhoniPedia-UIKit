@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE11A37427146B100030418A /* SearchApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE11A37327146B100030418A /* SearchApi.swift */; };
+		FE18C72A27124244002434C9 /* FavoritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE18C72927124244002434C9 /* FavoritesVC.swift */; };
+		FE18C72F27125118002434C9 /* Categories.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE18C72E27125118002434C9 /* Categories.storyboard */; };
+		FE30C398270218F400300347 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE30C397270218F400300347 /* ProductCell.swift */; };
+		FE30C39B2702535400300347 /* ProductApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE30C39A2702535400300347 /* ProductApi.swift */; };
+		FE4B975E2702694B000E96B0 /* BrandApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4B975D2702694B000E96B0 /* BrandApi.swift */; };
+		FE51B4EF27089219006773A7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE51B4EE27089219006773A7 /* Extensions.swift */; };
+		FE9096CF26FA666000290AB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA0001F26F87FF200E7F483 /* LaunchScreen.storyboard */; };
+		FE9096D026FA666100290AB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA0001F26F87FF200E7F483 /* LaunchScreen.storyboard */; };
+		FE9096D526FA6FFF00290AB4 /* BrandsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9096D426FA6FFF00290AB4 /* BrandsVC.swift */; };
+		FE9096D726FA776900290AB4 /* BrandCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9096D626FA776900290AB4 /* BrandCell.swift */; };
+		FE9096D926FA790F00290AB4 /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9096D826FA790F00290AB4 /* DataSet.swift */; };
+		FE997E492715DEE800160F86 /* SavedProductDataObject+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE997E472715DEE800160F86 /* SavedProductDataObject+CoreDataClass.swift */; };
+		FE997E4A2715DEE800160F86 /* SavedProductDataObject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE997E482715DEE800160F86 /* SavedProductDataObject+CoreDataProperties.swift */; };
+		FEA0001226F87FF000E7F483 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA0001126F87FF000E7F483 /* AppDelegate.swift */; };
+		FEA0001426F87FF000E7F483 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA0001326F87FF000E7F483 /* SceneDelegate.swift */; };
+		FEA0001626F87FF000E7F483 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA0001526F87FF000E7F483 /* HomeVC.swift */; };
+		FEA0001926F87FF000E7F483 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA0001726F87FF000E7F483 /* Main.storyboard */; };
+		FEA0001C26F87FF000E7F483 /* SepiRad_Online_Shop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEA0001A26F87FF000E7F483 /* SepiRad_Online_Shop.xcdatamodeld */; };
+		FEA0001E26F87FF200E7F483 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA0001D26F87FF200E7F483 /* Assets.xcassets */; };
+		FEA0002126F87FF200E7F483 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA0001F26F87FF200E7F483 /* LaunchScreen.storyboard */; };
+		FEA0008026F8866D00E7F483 /* Custom UI Elements Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA0007F26F8866D00E7F483 /* Custom UI Elements Classes.swift */; };
+		FEA0008126F88AD300E7F483 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA0001D26F87FF200E7F483 /* Assets.xcassets */; };
+		FEA0008226F88AD300E7F483 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA0001D26F87FF200E7F483 /* Assets.xcassets */; };
+		FEA8553A270C2A1300E045BA /* ProductSlideShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA85539270C2A1300E045BA /* ProductSlideShowCell.swift */; };
+		FEB6DCDC2717075300D80C80 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB6DCDB2717075300D80C80 /* SearchVC.swift */; };
+		FEC2E2A126FAEA0600257D3C /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC2E2A026FAEA0600257D3C /* Structs.swift */; };
+		FEC2E2A726FB2CD600257D3C /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC2E2A626FB2CD600257D3C /* ProductsVC.swift */; };
+		FEC2E2A926FB2D4200257D3C /* SingleProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC2E2A826FB2D4200257D3C /* SingleProductVC.swift */; };
+		FECBA5B826F9F1A8002E2AD8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBA5B726F9F1A8002E2AD8 /* Constants.swift */; };
+		FECBA5B926F9F1A8002E2AD8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBA5B726F9F1A8002E2AD8 /* Constants.swift */; };
+		FECBA5BA26F9F1A8002E2AD8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBA5B726F9F1A8002E2AD8 /* Constants.swift */; };
+		FED44B70270ED05D0096BA7B /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED44B6F270ED05D0096BA7B /* DetailsVC.swift */; };
+		FED44B72270ED1170096BA7B /* DetailsLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED44B71270ED1170096BA7B /* DetailsLabelCell.swift */; };
+		FED44B74270ED1360096BA7B /* DetailsDescCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED44B73270ED1360096BA7B /* DetailsDescCell.swift */; };
+		FED44B762710484B0096BA7B /* SpecialFiltersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED44B752710484B0096BA7B /* SpecialFiltersVC.swift */; };
+		FED44B7827108FD00096BA7B /* SpecialFiltersApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED44B7727108FD00096BA7B /* SpecialFiltersApi.swift */; };
+		FED44B7A271097BD0096BA7B /* SpecialFiltersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED44B79271097BD0096BA7B /* SpecialFiltersCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEA0002826F87FF200E7F483 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEA0000626F87FF000E7F483 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA0000D26F87FF000E7F483;
+			remoteInfo = "SepiRad Online Shop";
+		};
+		FEA0003326F87FF200E7F483 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEA0000626F87FF000E7F483 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA0000D26F87FF000E7F483;
+			remoteInfo = "SepiRad Online Shop";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE11A37327146B100030418A /* SearchApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchApi.swift; sourceTree = "<group>"; };
+		FE18C72927124244002434C9 /* FavoritesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesVC.swift; sourceTree = "<group>"; };
+		FE18C72E27125118002434C9 /* Categories.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Categories.storyboard; sourceTree = "<group>"; };
+		FE30C397270218F400300347 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		FE30C39A2702535400300347 /* ProductApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductApi.swift; sourceTree = "<group>"; };
+		FE4B975D2702694B000E96B0 /* BrandApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandApi.swift; sourceTree = "<group>"; };
+		FE51B4EE27089219006773A7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FE9096D426FA6FFF00290AB4 /* BrandsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandsVC.swift; sourceTree = "<group>"; };
+		FE9096D626FA776900290AB4 /* BrandCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandCell.swift; sourceTree = "<group>"; };
+		FE9096D826FA790F00290AB4 /* DataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSet.swift; sourceTree = "<group>"; };
+		FE997E472715DEE800160F86 /* SavedProductDataObject+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SavedProductDataObject+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		FE997E482715DEE800160F86 /* SavedProductDataObject+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SavedProductDataObject+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		FEA0000E26F87FF000E7F483 /* PhoniPedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoniPedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA0001126F87FF000E7F483 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEA0001326F87FF000E7F483 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FEA0001526F87FF000E7F483 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		FEA0001826F87FF000E7F483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEA0001B26F87FF000E7F483 /* SepiRad_Online_Shop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SepiRad_Online_Shop.xcdatamodel; sourceTree = "<group>"; };
+		FEA0001D26F87FF200E7F483 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEA0002026F87FF200E7F483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEA0002226F87FF200E7F483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA0002726F87FF200E7F483 /* PhoniPediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoniPediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA0003226F87FF200E7F483 /* PhoniPediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoniPediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA0007F26F8866D00E7F483 /* Custom UI Elements Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Custom UI Elements Classes.swift"; sourceTree = "<group>"; };
+		FEA85539270C2A1300E045BA /* ProductSlideShowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSlideShowCell.swift; sourceTree = "<group>"; };
+		FEB6DCDB2717075300D80C80 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		FEC2E2A026FAEA0600257D3C /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		FEC2E2A626FB2CD600257D3C /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
+		FEC2E2A826FB2D4200257D3C /* SingleProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleProductVC.swift; sourceTree = "<group>"; };
+		FECBA5B726F9F1A8002E2AD8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FED44B6F270ED05D0096BA7B /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		FED44B71270ED1170096BA7B /* DetailsLabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsLabelCell.swift; sourceTree = "<group>"; };
+		FED44B73270ED1360096BA7B /* DetailsDescCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsDescCell.swift; sourceTree = "<group>"; };
+		FED44B752710484B0096BA7B /* SpecialFiltersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialFiltersVC.swift; sourceTree = "<group>"; };
+		FED44B7727108FD00096BA7B /* SpecialFiltersApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialFiltersApi.swift; sourceTree = "<group>"; };
+		FED44B79271097BD0096BA7B /* SpecialFiltersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialFiltersCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEA0000B26F87FF000E7F483 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA0002426F87FF200E7F483 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA0002F26F87FF200E7F483 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE18C72B271246B4002434C9 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				FEA0001F26F87FF200E7F483 /* LaunchScreen.storyboard */,
+				FEA0001726F87FF000E7F483 /* Main.storyboard */,
+				FE18C72E27125118002434C9 /* Categories.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		FE30C399270252F500300347 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FE30C39A2702535400300347 /* ProductApi.swift */,
+				FE4B975D2702694B000E96B0 /* BrandApi.swift */,
+				FED44B7727108FD00096BA7B /* SpecialFiltersApi.swift */,
+				FE11A37327146B100030418A /* SearchApi.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FE3A2B372703852400CFEDD2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FECBA5B726F9F1A8002E2AD8 /* Constants.swift */,
+				FE51B4EE27089219006773A7 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FE786BBD27141BBE00CA65B5 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				FE997E472715DEE800160F86 /* SavedProductDataObject+CoreDataClass.swift */,
+				FE997E482715DEE800160F86 /* SavedProductDataObject+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		FEA0000526F87FF000E7F483 = {
+			isa = PBXGroup;
+			children = (
+				FEA0001026F87FF000E7F483 /* PhoniPedia */,
+				FEA0000F26F87FF000E7F483 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEA0000F26F87FF000E7F483 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEA0000E26F87FF000E7F483 /* PhoniPedia.app */,
+				FEA0002726F87FF200E7F483 /* PhoniPediaTests.xctest */,
+				FEA0003226F87FF200E7F483 /* PhoniPediaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEA0001026F87FF000E7F483 /* PhoniPedia */ = {
+			isa = PBXGroup;
+			children = (
+				FE18C72B271246B4002434C9 /* Storyboard */,
+				FEA0004426F8801600E7F483 /* Model */,
+				FEA0004526F8802300E7F483 /* View */,
+				FEA0004626F8802900E7F483 /* Controller */,
+				FE30C399270252F500300347 /* Services */,
+				FE3A2B372703852400CFEDD2 /* Utils */,
+				FEA0001126F87FF000E7F483 /* AppDelegate.swift */,
+				FEA0001326F87FF000E7F483 /* SceneDelegate.swift */,
+				FEA0001D26F87FF200E7F483 /* Assets.xcassets */,
+				FEA0002226F87FF200E7F483 /* Info.plist */,
+				FEA0001A26F87FF000E7F483 /* SepiRad_Online_Shop.xcdatamodeld */,
+			);
+			path = PhoniPedia;
+			sourceTree = "<group>";
+		};
+		FEA0004426F8801600E7F483 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE786BBD27141BBE00CA65B5 /* CoreData */,
+				FE9096D826FA790F00290AB4 /* DataSet.swift */,
+				FEC2E2A026FAEA0600257D3C /* Structs.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FEA0004526F8802300E7F483 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FEA0007F26F8866D00E7F483 /* Custom UI Elements Classes.swift */,
+				FE9096D626FA776900290AB4 /* BrandCell.swift */,
+				FE30C397270218F400300347 /* ProductCell.swift */,
+				FEA85539270C2A1300E045BA /* ProductSlideShowCell.swift */,
+				FED44B71270ED1170096BA7B /* DetailsLabelCell.swift */,
+				FED44B73270ED1360096BA7B /* DetailsDescCell.swift */,
+				FED44B79271097BD0096BA7B /* SpecialFiltersCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FEA0004626F8802900E7F483 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FE9096D426FA6FFF00290AB4 /* BrandsVC.swift */,
+				FEA0001526F87FF000E7F483 /* HomeVC.swift */,
+				FEC2E2A626FB2CD600257D3C /* ProductsVC.swift */,
+				FEC2E2A826FB2D4200257D3C /* SingleProductVC.swift */,
+				FED44B6F270ED05D0096BA7B /* DetailsVC.swift */,
+				FED44B752710484B0096BA7B /* SpecialFiltersVC.swift */,
+				FE18C72927124244002434C9 /* FavoritesVC.swift */,
+				FEB6DCDB2717075300D80C80 /* SearchVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEA0000D26F87FF000E7F483 /* PhoniPedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA0003B26F87FF200E7F483 /* Build configuration list for PBXNativeTarget "PhoniPedia" */;
+			buildPhases = (
+				FEA0000A26F87FF000E7F483 /* Sources */,
+				FEA0000B26F87FF000E7F483 /* Frameworks */,
+				FEA0000C26F87FF000E7F483 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoniPedia;
+			productName = "SepiRad Online Shop";
+			productReference = FEA0000E26F87FF000E7F483 /* PhoniPedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEA0002626F87FF200E7F483 /* PhoniPediaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA0003E26F87FF200E7F483 /* Build configuration list for PBXNativeTarget "PhoniPediaTests" */;
+			buildPhases = (
+				FEA0002326F87FF200E7F483 /* Sources */,
+				FEA0002426F87FF200E7F483 /* Frameworks */,
+				FEA0002526F87FF200E7F483 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEA0002926F87FF200E7F483 /* PBXTargetDependency */,
+			);
+			name = PhoniPediaTests;
+			productName = "SepiRad Online ShopTests";
+			productReference = FEA0002726F87FF200E7F483 /* PhoniPediaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEA0003126F87FF200E7F483 /* PhoniPediaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA0004126F87FF200E7F483 /* Build configuration list for PBXNativeTarget "PhoniPediaUITests" */;
+			buildPhases = (
+				FEA0002E26F87FF200E7F483 /* Sources */,
+				FEA0002F26F87FF200E7F483 /* Frameworks */,
+				FEA0003026F87FF200E7F483 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEA0003426F87FF200E7F483 /* PBXTargetDependency */,
+			);
+			name = PhoniPediaUITests;
+			productName = "SepiRad Online ShopUITests";
+			productReference = FEA0003226F87FF200E7F483 /* PhoniPediaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEA0000626F87FF000E7F483 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FEA0000D26F87FF000E7F483 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					FEA0002626F87FF200E7F483 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FEA0000D26F87FF000E7F483;
+					};
+					FEA0003126F87FF200E7F483 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FEA0000D26F87FF000E7F483;
+					};
+				};
+			};
+			buildConfigurationList = FEA0000926F87FF000E7F483 /* Build configuration list for PBXProject "PhoniPedia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEA0000526F87FF000E7F483;
+			productRefGroup = FEA0000F26F87FF000E7F483 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEA0000D26F87FF000E7F483 /* PhoniPedia */,
+				FEA0002626F87FF200E7F483 /* PhoniPediaTests */,
+				FEA0003126F87FF200E7F483 /* PhoniPediaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEA0000C26F87FF000E7F483 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE18C72F27125118002434C9 /* Categories.storyboard in Resources */,
+				FEA0002126F87FF200E7F483 /* LaunchScreen.storyboard in Resources */,
+				FEA0001E26F87FF200E7F483 /* Assets.xcassets in Resources */,
+				FEA0001926F87FF000E7F483 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA0002526F87FF200E7F483 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA0008126F88AD300E7F483 /* Assets.xcassets in Resources */,
+				FE9096CF26FA666000290AB4 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA0003026F87FF200E7F483 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA0008226F88AD300E7F483 /* Assets.xcassets in Resources */,
+				FE9096D026FA666100290AB4 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEA0000A26F87FF000E7F483 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA0001626F87FF000E7F483 /* HomeVC.swift in Sources */,
+				FEA0001226F87FF000E7F483 /* AppDelegate.swift in Sources */,
+				FEA0001C26F87FF000E7F483 /* SepiRad_Online_Shop.xcdatamodeld in Sources */,
+				FEC2E2A726FB2CD600257D3C /* ProductsVC.swift in Sources */,
+				FE30C39B2702535400300347 /* ProductApi.swift in Sources */,
+				FEA0001426F87FF000E7F483 /* SceneDelegate.swift in Sources */,
+				FEA0008026F8866D00E7F483 /* Custom UI Elements Classes.swift in Sources */,
+				FED44B762710484B0096BA7B /* SpecialFiltersVC.swift in Sources */,
+				FE997E4A2715DEE800160F86 /* SavedProductDataObject+CoreDataProperties.swift in Sources */,
+				FE9096D926FA790F00290AB4 /* DataSet.swift in Sources */,
+				FEB6DCDC2717075300D80C80 /* SearchVC.swift in Sources */,
+				FE9096D526FA6FFF00290AB4 /* BrandsVC.swift in Sources */,
+				FED44B7A271097BD0096BA7B /* SpecialFiltersCell.swift in Sources */,
+				FE4B975E2702694B000E96B0 /* BrandApi.swift in Sources */,
+				FEC2E2A926FB2D4200257D3C /* SingleProductVC.swift in Sources */,
+				FED44B74270ED1360096BA7B /* DetailsDescCell.swift in Sources */,
+				FE51B4EF27089219006773A7 /* Extensions.swift in Sources */,
+				FECBA5B826F9F1A8002E2AD8 /* Constants.swift in Sources */,
+				FE30C398270218F400300347 /* ProductCell.swift in Sources */,
+				FE9096D726FA776900290AB4 /* BrandCell.swift in Sources */,
+				FED44B70270ED05D0096BA7B /* DetailsVC.swift in Sources */,
+				FE18C72A27124244002434C9 /* FavoritesVC.swift in Sources */,
+				FE997E492715DEE800160F86 /* SavedProductDataObject+CoreDataClass.swift in Sources */,
+				FE11A37427146B100030418A /* SearchApi.swift in Sources */,
+				FED44B72270ED1170096BA7B /* DetailsLabelCell.swift in Sources */,
+				FEA8553A270C2A1300E045BA /* ProductSlideShowCell.swift in Sources */,
+				FED44B7827108FD00096BA7B /* SpecialFiltersApi.swift in Sources */,
+				FEC2E2A126FAEA0600257D3C /* Structs.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA0002326F87FF200E7F483 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FECBA5B926F9F1A8002E2AD8 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA0002E26F87FF200E7F483 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FECBA5BA26F9F1A8002E2AD8 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEA0002926F87FF200E7F483 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEA0000D26F87FF000E7F483 /* PhoniPedia */;
+			targetProxy = FEA0002826F87FF200E7F483 /* PBXContainerItemProxy */;
+		};
+		FEA0003426F87FF200E7F483 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEA0000D26F87FF000E7F483 /* PhoniPedia */;
+			targetProxy = FEA0003326F87FF200E7F483 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEA0001726F87FF000E7F483 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEA0001826F87FF000E7F483 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEA0001F26F87FF200E7F483 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEA0002026F87FF200E7F483 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEA0003926F87FF200E7F483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEA0003A26F87FF200E7F483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEA0003C26F87FF200E7F483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4DT4W933D;
+				INFOPLIST_FILE = "$(SRCROOT)/PhoniPedia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sepehr-FRD.SepiRad.PhoniPedia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEA0003D26F87FF200E7F483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4DT4W933D;
+				INFOPLIST_FILE = "$(SRCROOT)/PhoniPedia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sepehr-FRD.SepiRad.PhoniPedia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FEA0003F26F87FF200E7F483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4DT4W933D;
+				INFOPLIST_FILE = "SepiRad Online ShopTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sepehr-FRD.SepiRad-Online-ShopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SepiRad Online Shop.app/SepiRad Online Shop";
+			};
+			name = Debug;
+		};
+		FEA0004026F87FF200E7F483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4DT4W933D;
+				INFOPLIST_FILE = "SepiRad Online ShopTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sepehr-FRD.SepiRad-Online-ShopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SepiRad Online Shop.app/SepiRad Online Shop";
+			};
+			name = Release;
+		};
+		FEA0004226F87FF200E7F483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4DT4W933D;
+				INFOPLIST_FILE = "SepiRad Online ShopUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sepehr-FRD.SepiRad-Online-ShopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SepiRad Online Shop";
+			};
+			name = Debug;
+		};
+		FEA0004326F87FF200E7F483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B4DT4W933D;
+				INFOPLIST_FILE = "SepiRad Online ShopUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sepehr-FRD.SepiRad-Online-ShopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SepiRad Online Shop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEA0000926F87FF000E7F483 /* Build configuration list for PBXProject "PhoniPedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA0003926F87FF200E7F483 /* Debug */,
+				FEA0003A26F87FF200E7F483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA0003B26F87FF200E7F483 /* Build configuration list for PBXNativeTarget "PhoniPedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA0003C26F87FF200E7F483 /* Debug */,
+				FEA0003D26F87FF200E7F483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA0003E26F87FF200E7F483 /* Build configuration list for PBXNativeTarget "PhoniPediaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA0003F26F87FF200E7F483 /* Debug */,
+				FEA0004026F87FF200E7F483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA0004126F87FF200E7F483 /* Build configuration list for PBXNativeTarget "PhoniPediaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA0004226F87FF200E7F483 /* Debug */,
+				FEA0004326F87FF200E7F483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FEA0001A26F87FF000E7F483 /* SepiRad_Online_Shop.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FEA0001B26F87FF000E7F483 /* SepiRad_Online_Shop.xcdatamodel */,
+			);
+			currentVersion = FEA0001B26F87FF000E7F483 /* SepiRad_Online_Shop.xcdatamodel */;
+			path = SepiRad_Online_Shop.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FEA0000626F87FF000E7F483 /* Project object */;
+}

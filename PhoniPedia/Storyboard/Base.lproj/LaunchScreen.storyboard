@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lDy-vU-8Gi">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="f2c-Vt-f3t">
+            <objects>
+                <viewController id="lDy-vU-8Gi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="F3M-O5-Btl">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launch Screen" translatesAutoresizingMaskIntoConstraints="NO" id="hQW-tz-K0k">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PhoniPedia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="v79-hf-8ex">
+                                <rect key="frame" x="10" y="364" width="370" height="116.33333333333331"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="80"/>
+                                <color key="textColor" name="iconColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" name="iconBackgroundColor"/>
+                                <size key="shadowOffset" width="3" height="-3"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7q9-pU-NJt"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7q9-pU-NJt" firstAttribute="trailing" secondItem="v79-hf-8ex" secondAttribute="trailing" constant="10" id="66E-za-4f2"/>
+                            <constraint firstAttribute="bottom" secondItem="hQW-tz-K0k" secondAttribute="bottom" id="AbN-dS-EcM"/>
+                            <constraint firstItem="v79-hf-8ex" firstAttribute="centerY" secondItem="F3M-O5-Btl" secondAttribute="centerY" id="CCS-00-kOu"/>
+                            <constraint firstItem="hQW-tz-K0k" firstAttribute="leading" secondItem="F3M-O5-Btl" secondAttribute="leading" id="WCH-6g-Ro2"/>
+                            <constraint firstItem="7q9-pU-NJt" firstAttribute="trailing" secondItem="hQW-tz-K0k" secondAttribute="trailing" id="kws-ic-9Xi"/>
+                            <constraint firstItem="hQW-tz-K0k" firstAttribute="top" secondItem="F3M-O5-Btl" secondAttribute="top" id="rYv-5L-gcK"/>
+                            <constraint firstItem="v79-hf-8ex" firstAttribute="leading" secondItem="7q9-pU-NJt" secondAttribute="leading" constant="10" id="ugs-91-kom"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K3X-As-Xdq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-323" y="26"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Launch Screen" width="720" height="1280"/>
+        <namedColor name="iconBackgroundColor">
+            <color red="0.023529411764705882" green="0.17254901960784313" blue="0.2627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="iconColor">
+            <color red="0.48627450980392156" green="0.76078431372549016" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
